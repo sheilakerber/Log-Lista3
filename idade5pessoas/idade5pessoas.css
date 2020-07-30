@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(160, 160, 216, 0.4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#infos {
+    background-color: rgb(252, 252, 228, 0.8);
+    margin: 50px;
+    padding: 40px;
+    height: 600px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+div label {
+    background-color: rgb(203, 185, 222, 0.8);
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 2px 80px 80px 2px;
+}
+
+#resultadoMedias {
+    font-size: 18pt;
+}
+
+input {
+    padding: 8px;
+    border-radius: 4px;
+    border-style: none;
+    margin: 5px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 250px;
+}
+
+input[type=number] {
+    width: 80px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    background-color: rgb(47, 222, 222, 0.5);
+    font-size: 16pt;
+    border-radius: 5px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: rgb(47, 222, 222);
+    cursor: pointer;
+}

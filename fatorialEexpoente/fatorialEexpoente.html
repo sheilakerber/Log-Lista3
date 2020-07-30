@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calcule fatorial e expoente</title>
+        <link rel="stylesheet" href="fatorialEexpoente.css">
+    </head>
+    <body>
+
+        <div>
+            <h1>Use esta aba para calcular o fatorial de um número</h1>
+            <input type="number" id="numeroFatorial" placeholder="Número"><br>
+            <button onclick="calcularFatorial()">Calcular</button>
+            <button id="resetFatorial" onclick="resetFatorial()">Reset</button>
+            <p id="resultadoFatorial"></p>
+
+        </div>
+
+        <div>
+            <h1>Use esta aba para calcular o resultado de um número elevado a um expoente</h1>
+            <input type="number" id="numeroBase" placeholder="Base">
+            <input type="number" id="expoente" placeholder="Expoente"><br>
+            <button onclick="calcularExpoente()">Calcular</button>
+            <button onclick="resetExponenciacao()" id="resetExpoente">Reset</button>
+            <p id="resultadoExponenciacao"></p>
+
+        </div>
+
+    </body>
+
+    <script src="fatorialEexpoente.js"></script>
+</html>
